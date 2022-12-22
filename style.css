@@ -72,9 +72,10 @@ section:before {
 }
 
 .text {
-    position: absolute;
+    display: flex;
     top: 40vh;
-    left: 40%;
+    text-align: center;
+    justify-content: center;
     font-size: 2.5rem;
     font-weight: 700;
     color: #fff;
